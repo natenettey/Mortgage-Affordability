@@ -1,4 +1,5 @@
 import classes from '../UI_Components/NavBar.module.css'
+import Button from './Button'
 
 const NavBar = ()=>{
     return(
@@ -6,10 +7,9 @@ const NavBar = ()=>{
             <a>
                     Mortgage Genie
                 </a>
-                <button>
+                <Button>
                     Learn More
-                </button>
-            
+                </Button>
             
             
         </div>
