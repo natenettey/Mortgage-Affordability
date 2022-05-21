@@ -1,8 +1,18 @@
+import classes from '../UI_Components/NavBar.module.css'
+
 const NavBar = ()=>{
     return(
-        <nav>
-
-        </nav>
+        <div className={classes.navbar}>
+            <a>
+                    Mortgage Genie
+                </a>
+                <button>
+                    Learn More
+                </button>
+            
+            
+            
+        </div>
     )
 }
 export default NavBar
