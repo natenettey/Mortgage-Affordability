@@ -1,3 +1,24 @@
 .header{
     background-color: #fff8f0;
+    
+    height: 60vh;
+    color:var(--text-color);
+    display: flex;
+    
+
+}
+.header h1 {
+font-family: var(--font-family);
+font-size: 50px;
+}
+.partition_one{
+    flex: 0 0 50%;
+}
+.partition_two{
+    flex:1;
+}
+.partition_two img{
+    height: 80%;
+    width: 80%;
+    
 }
